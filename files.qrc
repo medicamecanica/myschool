@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>binding.qml</file>
+        <file>img/add.png</file>
+        <file>img/database_refresh.png</file>
+        <file>img/group_add.png</file>
+        <file>img/cog.png</file>
+    </qresource>
+</RCC>
