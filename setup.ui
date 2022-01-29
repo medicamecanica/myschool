@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Setup</class>
+ <widget class="QDialog" name="Setup">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>596</width>
+    <height>490</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QDialogButtonBox" name="buttonBox">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>440</y>
+     <width>461</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Ok</set>
+   </property>
+  </widget>
+  <widget class="QTabWidget" name="Sedes">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>551</width>
+     <height>401</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="tab_6">
+    <attribute name="title">
+     <string>Docente</string>
+    </attribute>
+   </widget>
+   <widget class="QWidget" name="tab_4">
+    <attribute name="title">
+     <string>Inst./Sede</string>
+    </attribute>
+    <widget class="QPushButton" name="btnSchool_new">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>320</y>
+       <width>89</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Nuevo</string>
+     </property>
+    </widget>
+    <widget class="QTableView" name="tableSchool">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>521</width>
+       <height>301</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnSchool_save">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>320</y>
+       <width>89</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Guardar</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnSchool_cancel">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>320</y>
+       <width>89</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Cancelar</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnSchool_del">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>320</y>
+       <width>89</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Eliminar</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_3">
+    <attribute name="title">
+     <string>Esq. Calificación</string>
+    </attribute>
+    <widget class="QPushButton" name="btnSchema_cancel">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>320</y>
+       <width>89</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Cancelar</string>
+     </property>
+    </widget>
+    <widget class="QTableView" name="tableSchema">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>521</width>
+       <height>121</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnSchema_new">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>320</y>
+       <width>89</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Nuevo</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnSchema_del">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>320</y>
+       <width>89</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Eliminar</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnSchema_save">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>320</y>
+       <width>89</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Guardar</string>
+     </property>
+    </widget>
+    <widget class="QTableView" name="tableSchemaRange">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>170</y>
+       <width>521</width>
+       <height>141</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnSchema_del_2">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>140</y>
+       <width>89</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Eliminar</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnSchema_new_2">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>140</y>
+       <width>89</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Nuevo</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>Areas</string>
+    </attribute>
+    <widget class="QTableView" name="tableArea">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>521</width>
+       <height>301</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnArea_save">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>330</y>
+       <width>89</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Guardar</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnArea_del">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>330</y>
+       <width>89</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Eliminar</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnArea_new">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>330</y>
+       <width>89</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Nuevo</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnArea_cancel">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>330</y>
+       <width>89</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Cancelar</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>Asignaturas</string>
+    </attribute>
+    <widget class="QPushButton" name="btnSubject_save">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>320</y>
+       <width>89</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Guardar</string>
+     </property>
+    </widget>
+    <widget class="QTableView" name="tableSubject">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>521</width>
+       <height>301</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnSubject_new">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>320</y>
+       <width>89</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Nuevo</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnSubject_cancel">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>320</y>
+       <width>89</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Cancelar</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnSubject_del">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>320</y>
+       <width>89</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Eliminar</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_5">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <attribute name="title">
+     <string>Usuarios/Docentes</string>
+    </attribute>
+    <widget class="QTableView" name="tableUser">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>271</width>
+       <height>291</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnUser_new">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>320</y>
+       <width>89</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Nuevo</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnUser_del">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>320</y>
+       <width>89</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Eliminar</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnUser_cancel">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>320</y>
+       <width>89</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Cancelar</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnUser_save">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>320</y>
+       <width>89</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Guardar</string>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>10</y>
+       <width>241</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Detalle</string>
+     </property>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Ident.</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Nombre</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>90</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Apellido</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>150</y>
+        <width>81</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Contraseña</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>120</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Apodo</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="ln_ref">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>30</y>
+        <width>113</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="ln_firstname">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>60</y>
+        <width>113</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="ln_lastname">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>90</y>
+        <width>113</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="ln_login">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>120</y>
+        <width>113</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="ln_pws">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>150</y>
+        <width>113</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radio_iam">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>180</y>
+        <width>71</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::RightToLeft</enum>
+      </property>
+      <property name="text">
+       <string>Soy yo</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radio_other">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>180</y>
+        <width>112</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::RightToLeft</enum>
+      </property>
+      <property name="text">
+       <string>Docente ext.</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>Setup</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>Setup</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnSchema_del_2</sender>
+   <signal>released()</signal>
+   <receiver>Setup</receiver>
+   <slot>deleteSchema()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>556</x>
+     <y>511</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>297</x>
+     <y>244</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnUser_del</sender>
+   <signal>clicked()</signal>
+   <receiver>Setup</receiver>
+   <slot>deleteUser()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>296</x>
+     <y>371</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>297</x>
+     <y>244</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnSubject_del</sender>
+   <signal>released()</signal>
+   <receiver>Setup</receiver>
+   <slot>deleteSubject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>296</x>
+     <y>371</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>297</x>
+     <y>244</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnUser_save</sender>
+   <signal>clicked()</signal>
+   <receiver>Setup</receiver>
+   <slot>saveUser()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>496</x>
+     <y>371</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>297</x>
+     <y>244</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnSchema_cancel</sender>
+   <signal>released()</signal>
+   <receiver>Setup</receiver>
+   <slot>refreshSchema()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>396</x>
+     <y>371</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>297</x>
+     <y>244</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnArea_new</sender>
+   <signal>released()</signal>
+   <receiver>Setup</receiver>
+   <slot>newArea()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>296</x>
+     <y>381</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>297</x>
+     <y>244</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnSubject_save</sender>
+   <signal>released()</signal>
+   <receiver>Setup</receiver>
+   <slot>saveSubject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>496</x>
+     <y>371</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>297</x>
+     <y>244</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnSchool_new</sender>
+   <signal>clicked()</signal>
+   <receiver>Setup</receiver>
+   <slot>newSchool()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>196</x>
+     <y>371</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>297</x>
+     <y>244</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnSchema_del</sender>
+   <signal>released()</signal>
+   <receiver>Setup</receiver>
+   <slot>deleteSchemaRange()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>296</x>
+     <y>371</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>297</x>
+     <y>244</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnSchool_del</sender>
+   <signal>clicked()</signal>
+   <receiver>Setup</receiver>
+   <slot>deleteSchool()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>296</x>
+     <y>371</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>297</x>
+     <y>244</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnSubject_new</sender>
+   <signal>released()</signal>
+   <receiver>Setup</receiver>
+   <slot>newSubject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>196</x>
+     <y>371</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>297</x>
+     <y>244</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnSchema_save</sender>
+   <signal>released()</signal>
+   <receiver>Setup</receiver>
+   <slot>saveSchema()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>496</x>
+     <y>371</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>297</x>
+     <y>244</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnUser_cancel</sender>
+   <signal>clicked()</signal>
+   <receiver>Setup</receiver>
+   <slot>refreshUser()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>396</x>
+     <y>371</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>297</x>
+     <y>244</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnSchema_new_2</sender>
+   <signal>released()</signal>
+   <receiver>Setup</receiver>
+   <slot>newSchema()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>456</x>
+     <y>511</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>297</x>
+     <y>244</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnArea_cancel</sender>
+   <signal>released()</signal>
+   <receiver>Setup</receiver>
+   <slot>refreshArea()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>396</x>
+     <y>381</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>297</x>
+     <y>244</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnArea_save</sender>
+   <signal>released()</signal>
+   <receiver>Setup</receiver>
+   <slot>saveArea()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>496</x>
+     <y>381</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>297</x>
+     <y>244</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnSubject_cancel</sender>
+   <signal>released()</signal>
+   <receiver>Setup</receiver>
+   <slot>refreshSubject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>396</x>
+     <y>371</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>297</x>
+     <y>244</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnSchool_save</sender>
+   <signal>clicked()</signal>
+   <receiver>Setup</receiver>
+   <slot>saveSchool()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>496</x>
+     <y>371</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>297</x>
+     <y>244</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnSchool_cancel</sender>
+   <signal>clicked()</signal>
+   <receiver>Setup</receiver>
+   <slot>refreshSchool()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>396</x>
+     <y>371</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>297</x>
+     <y>244</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnSchema_new</sender>
+   <signal>released()</signal>
+   <receiver>Setup</receiver>
+   <slot>newSchemaRange()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>196</x>
+     <y>371</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>297</x>
+     <y>244</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnArea_del</sender>
+   <signal>released()</signal>
+   <receiver>Setup</receiver>
+   <slot>deleteArea()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>296</x>
+     <y>381</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>297</x>
+     <y>244</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnUser_new</sender>
+   <signal>clicked()</signal>
+   <receiver>Setup</receiver>
+   <slot>newUser()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>196</x>
+     <y>371</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>297</x>
+     <y>244</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>saveArea()</slot>
+  <slot>newArea()</slot>
+  <slot>refreshArea()</slot>
+  <slot>deleteArea()</slot>
+  <slot>saveSubject()</slot>
+  <slot>newSubject()</slot>
+  <slot>refreshSubject()</slot>
+  <slot>deleteSubject()</slot>
+  <slot>deleteSchema()</slot>
+  <slot>newSchema()</slot>
+  <slot>refreshSchema()</slot>
+  <slot>saveSchema()</slot>
+  <slot>newSchemaRange()</slot>
+  <slot>deleteSchemaRange()</slot>
+  <slot>saveSchool()</slot>
+  <slot>newSchool()</slot>
+  <slot>deleteSchool()</slot>
+  <slot>refreshSchool()</slot>
+  <slot>saveUser()</slot>
+  <slot>deleteUser()</slot>
+  <slot>refreshUser()</slot>
+  <slot>newUser()</slot>
+ </slots>
+</ui>
